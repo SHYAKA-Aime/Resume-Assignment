@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aime SHYAKA - Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <div class="logo">AIME</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+<!-- Home Section -->
+<section id="home" class="home-section">
+    <div class="home-content">
+        <p class="intro-text">Hi, I am</p>
+        <h1>AIME SHYAKA</h1>
+        <p>Software Engineer</p>
+        <a href="#about" class="cta-button">Learn More About Me</a>
+    </div>
+</section>
+
+    
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-image" onclick="openModal('profileModal')">
+                    <img src="images/profile.jpg" alt="Profile Image">
+                </div>
+                <div class="about-text">
+                    <p>A fullstack Software developer, and I'm very passionate and dedicated to my work and always open to learning new technologies. I am an ambitious and exceptionally organized person who is recognized for the ability to communicate effectively, work as part of a team and solve problems creatively.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-item">
+                        <span>HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>React</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-item">
+                        <span>Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Python - Django RF</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>SQL & NoSQL Databases</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-item">
+                        <span>Git/GitHub</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>VS Code</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Figma</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Full-stack Engineer</h3>
+                        <div class="timeline-date">2024 - Present</div>
+                        <p><b>ITARA IQ</b></p>
+                        <p>As a full stack engineer my role is to develop develop dynamic backend systems as well as well designed frontend apps.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Full-stack Engineer</h3>
+                        <div class="timeline-date">2024</div>
+                        <p><b>Andela</b></p>
+                        <p>I took part in Andela technical leadership program, ATLP where we were developing full stack apps with expressJS, reactJS and GraphQL.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Frontend developer</h3>
+                        <div class="timeline-date">2023-2024</div>
+                        <p><b>NDINDA Design studio</b></p>
+                        <p>I worked as a frontend developer at NDINDA where I designed the frontend of NDINDA's webpage.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- Projects Section -->
+<section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+        
+        <a href="https://endearing-cannoli-8d5726.netlify.app/" target="_blank" class="project-card">
+            <div class="project-image">
+                <img src="images/geekmart.avif" alt="GeekMart Project">
+            </div>
+            <div class="project-content">
+                <h3>GeekMart</h3>
+                <p>An E-commerce Project developed alongside my Team in ATLP</p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://aim-tok.000webhostapp.com/" target="_blank" class="project-card">
+            <div class="project-image">
+                <img src="images/toklogo.jpg" alt="AimTok Project">
+            </div>
+            <div class="project-content">
+                <h3>AimTok</h3>
+                <p>A chat webApp</p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Express.js</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://itara-planner-frontend.vercel.app/" target="_blank" class="project-card">
+            <div class="project-image">
+                <img src="images/planner.jpg" alt="MFASHA Planner Project">
+            </div>
+            <div class="project-content">
+                <h3>MFASHA Planner</h3>
+                <p>Task scheduling system</p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Django</span>
+                </div>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error-message">Please enter your name</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message">Please enter a valid email</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <div class="error-message">Please enter your message</div>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email</strong>
+                            <p>shyakaaime25@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+250780085493</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Location</strong>
+                            <p>Kigali, Rwanda</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <strong>LinkedIn</strong>
+                            <p><a href="https://www.linkedin.com/in/shyaka-aime-64670a28a/" target="_blank">My LinkedIn</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Aime SHYAKA. All rights reserved.</p>
+    </footer>
+
+    <!-- About me Modal -->
+    <div id="profileModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About Me - Detailed</h2>
+            <p>A fullstack Software developer, and I'm very passionate and dedicated to my work and always open to learning 
+			    new technologies. I am an ambitious and exceptionally organized person who is recognized for
+			    the ability to communicate effectively, work as part of a team and solve problems creatively.</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    </body>
+    </html>
